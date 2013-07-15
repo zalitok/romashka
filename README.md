@@ -1,4 +1,4 @@
-Education:
+Education
 =====================
 2005 - 2011: National Aviation University, Specialist degree.
 
@@ -6,7 +6,7 @@ Specialty “technology of electronic media publications”.
 
 Qualification: system publishing and printing production  engineer.
 
-Skills: 
+Skills
 =====================
 - Experienced user of OS Windows
 - Graphics software: 
@@ -16,13 +16,13 @@ Skills:
 - Experience of working with people, ability to work in a team
 - It is easy and quick to learn new for me
 
-Languages:
+Languages
 =====================
 - russian
 - ukrainian
 - english (base)
 
-Personal qualities:
+Personal qualities
 =====================
 - the desire to learn
 - responsibility

@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.css" type="text/css" media="screen" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -59,6 +60,15 @@ Word, Excel, Access</li>
 <li>sense of purpose</li>
 <li>balance</li>
 <li>punctuality</li>
+<a class="fancybox" href="portfolio/image03.png" title="Ayvalık, Turkey (Nejdet Düzen)">1</a>
+<a class="fancybox" href="portfolio/image07.png" title="Sicilian Scratches   erice (italianoadoravel on/off coming back)">2</a>
+<a class="fancybox" href="portfolio/image08.png" title="Ayvalık, Turkey (Nejdet Düzen)">3</a>
+<a class="fancybox" href="portfolio/image09.png" title="Sicilian Scratches   erice (italianoadoravel on/off coming back)">4</a>
+<a class="fancybox" href="portfolio/image10.png" title="Sicilian Scratches   erice (italianoadoravel on/off coming back)">5</a>
+<a class="fancybox" href="portfolio/image11.png" title="Ayvalık, Turkey (Nejdet Düzen)">6</a>
+<a class="fancybox" href="portfolio/image13.png" title="Sicilian Scratches   erice (italianoadoravel on/off coming back)">7</a>
+<a class="fancybox" href="portfolio/image14.png" title="Sicilian Scratches   erice (italianoadoravel on/off coming back)">8</a>
+<a class="fancybox" href="portfolio/image15.png" title="Ayvalık, Turkey (Nejdet Düzen)">9</a>
 </ul>
       </section>
       <footer>
@@ -66,16 +76,34 @@ Word, Excel, Access</li>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-33536569-7");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-33536569-7");
+    pageTracker._trackPageview();
+    } catch(err) {}
+  </script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+  <script>
+      $(".fancybox").fancybox({    openEffect      : 'none',
+        closeEffect     : 'none',
+        autoSize        : false,
+        height          : window.innerHeight,
+        width           : window.innerWidth/0.75,
+        minWidth        : 0,
+        minHeight       : 0,
+        
+        helpers : {
+            overlay : {
+                css : {
+                    'background'  : 'rgba(255, 255, 255, 0.1)'
+                }
+            }
+        }});
+    </script>
   </body>
 </html>

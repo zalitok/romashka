@@ -69,7 +69,7 @@
 					mail.textContent 	= addr;
 					mail.href 			= 'mailto:' + addr;
 					mail.title			= 'Mail';
-					mail.removeEventListener(click);
+					mail.removeEventListener('click', click);
 					
 					event.preventDefault();
 				}

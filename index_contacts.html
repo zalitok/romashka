@@ -40,8 +40,7 @@
       <div class="about_autor">
 			<div class="contacts">
 					<h3>Contacts:</h3>
-					<p>e-mail:</p>
-					<a>polietilena19@gmail.com</a>	
+					<p>e-mail: <a id=mail title="Click to show" href=#>xxxxxxx</a></p>
 			</div>					
 			 
       </div>
@@ -53,9 +52,26 @@
 
     </div> <!-- /container -->
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+	<script>
+		(function() {
+			'use strict'
+			
+			window.addEventListener('load', showMail);
+			
+			function load() {
+				var mail = document.getElementById('mail');
+				mail.addEventListener('click', click);
+				
+				window.removeEventListener('load', load);
+				
+				function click() {
+					mail.textContent = atob('cG9saWV0aWxlbmExOUBnbWFpbC5jb20=');
+					mail.removeEventListener(click);
+				}
+			}
+			
+		})();
+		
+	</script>
   </body>
 </html>

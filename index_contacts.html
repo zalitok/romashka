@@ -40,7 +40,7 @@
       <div class="about_autor">
 			<div class="contacts">
 					<h3>Contacts:</h3>
-					<p>e-mail: <a id=mail title="Click to show" href=#>xxxxxxx</a></p>
+					<p>e-mail: <a id=mail title="Click to show" href=#>xxxxxxx</a> </p>
 			</div>					
 			 
       </div>
@@ -64,9 +64,14 @@
 				
 				window.removeEventListener('load', load);
 				
-				function click() {
-					mail.textContent = atob('cG9saWV0aWxlbmExOUBnbWFpbC5jb20=');
+				function click(event) {
+					var addr 			= atob('cG9saWV0aWxlbmExOUBnbWFpbC5jb20=')
+					mail.textContent 	= addr;
+					mail.href 			= addr;
+					mail.title			= "Mail";
 					mail.removeEventListener(click);
+					
+					event.preventDefault();
 				}
 			}
 			

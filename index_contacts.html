@@ -67,8 +67,8 @@
 				function click(event) {
 					var addr 			= atob('cG9saWV0aWxlbmExOUBnbWFpbC5jb20=')
 					mail.textContent 	= addr;
-					mail.href 			= addr;
-					mail.title			= "Mail";
+					mail.href 			= 'mailto:' + addr;
+					mail.title			= 'Mail';
 					mail.removeEventListener(click);
 					
 					event.preventDefault();

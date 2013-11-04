@@ -2,6 +2,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  line-height: 2.428571429;
 }
 
 .header,
@@ -19,8 +20,12 @@ body {
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 40px;
+  line-height: 52px;
   padding-bottom: 19px;
+}
+
+a {
+color: #8A8D8F;
 }
 
 /* Custom page footer */
@@ -69,17 +74,13 @@ height: 200px;
 display: inline-block;
 background-position: center;
 margin: 15px;
-border-radius: 6px;
+border-radius: 0;
 border: 1px solid #dddddd;
 background-color: rgb(255,255,255);
-box-shadow: pink 1px 1px;
+box-shadow: rgba(187, 187, 187, 0.5) 1px 1px;
 text-align: center;
 }
 
-
-::selection {
-	background-color: pink;
-	color: white;
 }
 	
 ::-moz-selection {
@@ -101,4 +102,14 @@ box-shadow: 20px 0px 28px -15px rgba(201,207,210,0.5);
 height: 200px;
 margin-top: 25px;
 line-height: 2;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+color: #ffffff;
+background-color: #f77c82;
+}
+
+a:hover, a:focus {
+color: #f77c82;
+text-decoration: underline;
 }

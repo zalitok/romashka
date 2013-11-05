@@ -69,7 +69,7 @@ height: 200px;
 display: inline-block;
 background-position: center;
 margin: 15px;
-border-radius: 6px;
+border-radius: 0;
 border: 1px solid #dddddd;
 background-color: rgb(255,255,255);
 box-shadow: rgba(187, 187, 187, 0.5) 1px 1px;

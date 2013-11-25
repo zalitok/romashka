@@ -64,19 +64,6 @@ body {
     border-right: 0;
   }
 }
-.fancybox-thumb {
-background: no-repeat;
-width: 200px;
-height: 200px;
-display: inline-block;
-background-position: center;
-margin: 15px;
-border-radius: 6px;
-border: 1px solid #dddddd;
-background-color: rgb(255,255,255);
-box-shadow: pink 1px 1px;
-text-align: center;
-}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {

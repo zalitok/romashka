@@ -20,7 +20,7 @@ Languages
 =====================
 - russian
 - ukrainian
-- english (base)
+- english (intermediate)
 
 Personal qualities
 =====================
